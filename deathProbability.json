@@ -150,7 +150,457 @@
 			"age": 29,
 			"sex": "male",
 			"deathProb": 0.001393
-		}
+		},
+	    {
+			"age": 30,
+			"sex": "male",
+			"deathProb": 0.001419
+		},
+	    {
+			"age": 31,
+			"sex": "male",
+			"deathProb": 0.001445
+		},
+	    {
+			"age": 32,
+			"sex": "male",
+			"deathProb": 0.001478
+		},
+	    {
+			"age": 33,
+			"sex": "male",
+			"deathProb": 0.001519
+		},
+	    {
+			"age": 34,
+			"sex": "male",
+			"deathProb": 0.001569
+		},		
+	    {
+			"age": 35,
+			"sex": "male",
+			"deathProb": 0.001631
+		},
+	    {
+			"age": 36,
+			"sex": "male",
+			"deathProb": 0.001709
+		},
+	    {
+			"age": 37,
+			"sex": "male",
+			"deathProb": 0.001807
+		},
+	    {
+			"age": 38,
+			"sex": "male",
+			"deathProb": 0.001927
+		},
+	    {
+			"age": 39,
+			"sex": "male",
+			"deathProb": 0.002070
+		},
+	    {
+			"age": 40,
+			"sex": "male",
+			"deathProb": 0.002234
+		},
+	    {
+			"age": 41,
+			"sex": "male",
+			"deathProb": 0.002420
+		},
+	    {
+			"age": 42,
+			"sex": "male",
+			"deathProb": 0.002628
+		},		
+	    {
+			"age": 43,
+			"sex": "male",
+			"deathProb": 0.002860
+		},
+	    {
+			"age": 44,
+			"sex": "male",
+			"deathProb": 0.003117
+		},
+	    {
+			"age": 45,
+			"sex": "male",
+			"deathProb": 0.003396
+		},
+	    {
+			"age": 46,
+			"sex": "male",
+			"deathProb": 0.003703
+		},
+	    {
+			"age": 47,
+			"sex": "male",
+			"deathProb": 0.004051
+		},
+	    {
+			"age": 48,
+			"sex": "male",
+			"deathProb": 0.004444
+		},
+	    {
+			"age": 49,
+			"sex": "male",
+			"deathProb": 0.004878
+		},
+	    {
+			"age": 50,
+			"sex": "male",
+			"deathProb": 0.005347
+		},
+	    {
+			"age": 51,
+			"sex": "male",
+			"deathProb": 0.005838
+		},
+	    {
+			"age": 52,
+			"sex": "male",
+			"deathProb": 0.006337
+		},		
+	    {
+			"age": 53,
+			"sex": "male",
+			"deathProb": 0.006837
+		},
+	    {
+			"age": 54,
+			"sex": "male",
+			"deathProb": 0.007347
+		},
+	    {
+			"age": 55,
+			"sex": "male",
+			"deathProb": 0.007905
+		},
+	    {
+			"age": 56,
+			"sex": "male",
+			"deathProb": 0.008508
+		},
+	    {
+			"age": 57,
+			"sex": "male",
+			"deathProb": 0.009116
+		},
+	    {
+			"age": 58,
+			"sex": "male",
+			"deathProb": 0.009723
+		},
+	    {
+			"age": 59,
+			"sex": "male",
+			"deathProb": 0.010354
+		},
+	    {
+			"age": 60,
+			"sex": "male",
+			"deathProb": 0.011046
+		},
+	    {
+			"age": 61,
+			"sex": "male",
+			"deathProb": 0.011835
+		},
+	    {
+			"age": 62,
+			"sex": "male",
+			"deathProb": 0.012728
+		},		
+	    {
+			"age": 63,
+			"sex": "male",
+			"deathProb": 0.013743
+		},
+	    {
+			"age": 64,
+			"sex": "male",
+			"deathProb": 0.014885
+		},
+	    {
+			"age": 65,
+			"sex": "male",
+			"deathProb": 0.016182
+		},
+	    {
+			"age": 66,
+			"sex": "male",
+			"deathProb": 0.017612
+		},
+	    {
+			"age": 67,
+			"sex": "male",
+			"deathProb": 0.019138
+		},
+	    {
+			"age": 68,
+			"sex": "male",
+			"deathProb": 0.020752
+		},
+	    {
+			"age": 69,
+			"sex": "male",
+			"deathProb": 0.022497
+		},
+	    {
+			"age": 70,
+			"sex": "male",
+			"deathProb": 0.024488
+		},
+	    {
+			"age": 71,
+			"sex": "male",
+			"deathProb": 0.026747
+		},
+	    {
+			"age": 72,
+			"sex": "male",
+			"deathProb": 0.029212
+		},		
+	    {
+			"age": 73,
+			"sex": "male",
+			"deathProb": 0.031885
+		},
+	    {
+			"age": 74,
+			"sex": "male",
+			"deathProb": 0.034832
+		},
+	    {
+			"age": 75,
+			"sex": "male",
+			"deathProb": 0.038217
+		},
+	    {
+			"age": 76,
+			"sex": "male",
+			"deathProb": 0.042059
+		},
+	    {
+			"age": 77,
+			"sex": "male",
+			"deathProb": 0.046261
+		},
+	    {
+			"age": 78,
+			"sex": "male",
+			"deathProb": 0.050826
+		},
+	    {
+			"age": 79,
+			"sex": "male",
+			"deathProb": 0.055865
+		},
+	    {
+			"age": 80,
+			"sex": "male",
+			"deathProb": 0.061620
+		},
+	    {
+			"age": 81,
+			"sex": "male",
+			"deathProb": 0.068153
+		},
+	    {
+			"age": 82,
+			"sex": "male",
+			"deathProb": 0.075349
+		},		
+	    {
+			"age": 83,
+			"sex": "male",
+			"deathProb": 0.083230
+		},
+	    {
+			"age": 84,
+			"sex": "male",
+			"deathProb": 0.091933
+		},
+	    {
+			"age": 85,
+			"sex": "male",
+			"deathProb": 0.101625
+		},
+	    {
+			"age": 86,
+			"sex": "male",
+			"deathProb": 0.112448
+		},
+	    {
+			"age": 87,
+			"sex": "male",
+			"deathProb": 0.124502
+		},
+	    {
+			"age": 88,
+			"sex": "male",
+			"deathProb": 0.137837
+		},
+	    {
+			"age": 89,
+			"sex": "male",
+			"deathProb": 0.152458
+		},
+	    {
+			"age": 90,
+			"sex": "male",
+			"deathProb": 0.168352
+		},
+	    {
+			"age": 91,
+			"sex": "male",
+			"deathProb": 0.185486
+		},
+	    {
+			"age": 92,
+			"sex": "male",
+			"deathProb": 0.203817
+		},		
+	    {
+			"age": 93,
+			"sex": "male",
+			"deathProb": 0.223298
+		},
+	    {
+			"age": 94,
+			"sex": "male",
+			"deathProb": 0.243867
+		},
+	    {
+			"age": 95,
+			"sex": "male",
+			"deathProb": 0.264277
+		},
+	    {
+			"age": 96,
+			"sex": "male",
+			"deathProb": 0.284168
+		},
+	    {
+			"age": 97,
+			"sex": "male",
+			"deathProb": 0.303164
+		},
+	    {
+			"age": 98,
+			"sex": "male",
+			"deathProb": 0.320876
+		},
+	    {
+			"age": 99,
+			"sex": "male",
+			"deathProb": 0.336919
+		},
+	    {
+			"age": 100,
+			"sex": "male",
+			"deathProb": 0.353765
+		},
+	    {
+			"age": 101,
+			"sex": "male",
+			"deathProb": 0.371454
+		},
+	    {
+			"age": 102,
+			"sex": "male",
+			"deathProb": 0.390026
+		},		
+	    {
+			"age": 103,
+			"sex": "male",
+			"deathProb": 0.409528
+		},
+	    {
+			"age": 104,
+			"sex": "male",
+			"deathProb": 0.430004
+		},
+	    {
+			"age": 105,
+			"sex": "male",
+			"deathProb": 0.451504
+		},
+	    {
+			"age": 106,
+			"sex": "male",
+			"deathProb": 0.474079
+		},
+	    {
+			"age": 107,
+			"sex": "male",
+			"deathProb": 0.497783
+		},
+	    {
+			"age": 108,
+			"sex": "male",
+			"deathProb": 0.522673
+		},
+	    {
+			"age": 109,
+			"sex": "male",
+			"deathProb": 0.548806
+		},
+	    {
+			"age": 110,
+			"sex": "male",
+			"deathProb": 0.576246
+		},
+	    {
+			"age": 111,
+			"sex": "male",
+			"deathProb": 0.605059
+		},
+	    {
+			"age": 112,
+			"sex": "male",
+			"deathProb": 0.635312
+		},		
+	    {
+			"age": 113,
+			"sex": "male",
+			"deathProb": 0.667077
+		},
+	    {
+			"age": 114,
+			"sex": "male",
+			"deathProb": 0.700431
+		},
+	    {
+			"age": 115,
+			"sex": "male",
+			"deathProb": 0.735453
+		},
+	    {
+			"age": 116,
+			"sex": "male",
+			"deathProb": 0.772225
+		},
+	    {
+			"age": 117,
+			"sex": "male",
+			"deathProb": 0.810837
+		},
+	    {
+			"age": 118,
+			"sex": "male",
+			"deathProb": 0.851378
+		},
+	    {
+			"age": 119,
+			"sex": "male",
+			"deathProb": 0.893947
+		}		
 		
 	]
 	

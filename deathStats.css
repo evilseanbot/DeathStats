@@ -7,14 +7,14 @@
 
 .finecolumn {
 	float: left;
-	width: 7px;
+	width: 6px;
 	height: 300px;
 	border-bottom: 1px solid black;
 	border-left: 1px solid #888888;
 }
 
 .finebar {
-	width: 7px;
+	width: 6px;
 }	
 
 .bar {

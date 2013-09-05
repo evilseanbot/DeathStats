@@ -1,5 +1,4 @@
 TO DO FOR DEATH STATS:
-* Put it on git
 * Add an explanation to it some where.
 * Add questions for gender, race, income, smoking status, bmi?
 * Perform speed optimization on updateComplex
@@ -9,9 +8,10 @@ TO DO FOR DEATH STATS:
 * Use a javascript graphs library
 * Improve the layout
 * Fix sawtooth patterns on causes of death.
-* Move CSS to its own page.
 * Move Model to its own system.
 * Move JS(?) to its own page.
+* Add data for all ages.
+
 
 DONE:
 * Add descriptions of the different colors.
@@ -22,3 +22,5 @@ DONE:
 * Make the causes of death reflect the liklihood of being alive at that age / dying of that cause.
 * Make a list of estimated causes of death.
 * Put it online for online gawkers.
+* Put it on git
+* Move CSS to its own page.
