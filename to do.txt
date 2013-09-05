@@ -1,9 +1,7 @@
 TO DO FOR DEATH STATS:
 * Add an explanation to it some where.
 * Add questions for gender, race, income, smoking status, bmi?
-* Perform speed optimization on updateComplex
 * Add "Future scenarios", variations of the lifespan that could happen in our lifetime.
-* Ages extending beyond 100? (Possibly switching to actuary table.)
 * Make space for graph bigger
 * Use a javascript graphs library
 * Improve the layout
@@ -11,7 +9,8 @@ TO DO FOR DEATH STATS:
 * Move Model to its own system.
 * Move JS(?) to its own page.
 * Add data for all ages.
-
+* Make it not pull data from only males.
+* Fix prediction of death causes.
 
 DONE:
 * Add descriptions of the different colors.
@@ -24,3 +23,5 @@ DONE:
 * Put it online for online gawkers.
 * Put it on git
 * Move CSS to its own page.
+* Ages extending beyond 100
+* Perform speed optimization on updateComplex

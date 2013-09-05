@@ -13,85 +13,14 @@
     function Ctrl($scope, $http) {		
 	    maxAge = 119;
 	
-        $scope.myAge = 1;		
+        $scope.myAge = 0;		
 		
 		$scope.deathRatesByYear = [];
 		
 		$scope.navType = "pills";
 		
 		$scope.certainty = 50;
-		
-		/*
-		function getSingleYearRate(fiveYearDeathRate) {
-		    var fiveYearSurvivalRate = 1.0 - fiveYearDeathRate;
-			var oneYearSurvivalRate = Math.pow(fiveYearSurvivalRate, 1.0/5.0);
-			var oneYearDeathRate = 1.0 - oneYearSurvivalRate;
-			return oneYearDeathRate;
-		}
 				
-		$scope.deathRatesByYear.push({"age": 0, "deathRate": 0.006123});
-		for (var i = 1; i < 5; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.001071)});  
-		}
-		for (var i = 5; i < 10; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.000573)});  
-		}
-		for (var i = 10; i < 15; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.000708)});  
-		}
-		for (var i = 15; i < 20; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.002463)});  
-		}
-		for (var i = 20; i < 25; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.004317)});  
-		}
-		for (var i = 25; i < 30; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.004791)});  
-		}
-		for (var i = 30; i < 35; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.005500)});  
-		}
-		for (var i = 35; i < 40; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.006913)});  
-		}
-		for (var i = 40; i < 45; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.009979)});  
-		}
-		for (var i = 45; i < 50; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.016044)});  
-		}
-		for (var i = 50; i < 55; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.024343)});  
-		}
-		for (var i = 55; i < 60; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.035106)});  
-		}
-		for (var i = 60; i < 65; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.049847)});  
-		}
-		for (var i = 65; i < 70; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.074412)});  
-		}
-		for (var i = 70; i < 75; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.112312)});  
-		}
-		for (var i = 75; i < 80; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.174772)});  
-		}
-		for (var i = 80; i < 85; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.274365)});  
-		}
-		for (var i = 85; i < 90; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.430887)});  
-		}
-		for (var i = 90; i < 95; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.615150)});  
-		}
-		for (var i = 95; i < 100; i++) {
-		    $scope.deathRatesByYear.push({"age": i, "deathRate": getSingleYearRate(0.783137)});  
-		}
-        */
-		
 		totalDeathRates = {"0-1": 24586, 
 		                    "1-4": 4316,
 							"5-14": 5279,
@@ -316,19 +245,7 @@
 		        var halfCertainty = $scope.certainty / 2.0;
 		
 		        var myAge = parseInt($scope.myAge);
-		    
-			/*
-		        $scope.years = [{"age": $scope.myAge, "dead": 0, "die": ($scope.deathRatesByYear[myAge].deathRate*100.0), "live": 100-($scope.deathRatesByYear[myAge].deathRate*100.0)}];
-				for (var i = myAge+1; i < 100; i++) {
-				
-					var lastIndex = $scope.years.length-1;
-					var stillAlive = $scope.years[lastIndex].live;
-					var alreadyDead = $scope.years[lastIndex].dead + $scope.years[lastIndex].die;
-					var deathRate = $scope.deathRatesByYear[i].deathRate * 100.0;
-					var deathChance = deathRate * (stillAlive / 100.0);
-					var liveChance = 100.0 - deathChance - alreadyDead;
-			*/		
-			
+		    			
 			    var myAgeLifeTable = $scope.getLifeTableEntryByAge(myAge);
 
 		        $scope.years = [{"age": $scope.myAge, "dead": 0, "die": (myAgeLifeTable.deathProb*100.0), "live": 100-(myAgeLifeTable.deathProb*100.0)}];
@@ -425,15 +342,7 @@
 		    var ageDeathRate = $scope.getLifeTableByAge(age).deathProb;
 			return chanceToDieOfCause * ageDeathRate.deathRate * $scope.findSurvivalRateByAge(age);
 		}
-		
-		/*$scope.findDeathRateByAge = function(age) {
-		    for (var i = 0; i < $scope.deathRatesByYear.length; i++) {
-                if (age == $scope.deathRatesByYear[i].age) {
-				    return $scope.deathRatesByYear[i];
-				}
-			}
-		}*/
-		
+				
 		$scope.findSurvivalRateByAge = function(age) {
 		    for (var i = 0; i < $scope.years.length; i++) {
                 if (age == $scope.years[i].age) {
@@ -451,15 +360,13 @@
 		}
 		
 		$scope.lifeTable = null;
+		
 		$http.get('deathProbability.json').success(function(data) {
 			$scope.lifeTable = data.probabilities;
 			console.log("Got it!");
 			console.log(data);
 			$scope.updateComplex();
 		});
-
-		
-		//$scope.updateComplex();
 		
 	}
 </script>
