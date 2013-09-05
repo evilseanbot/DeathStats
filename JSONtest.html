@@ -1,0 +1,20 @@
+<html ng-app="JSONTest">
+<script src='angular.js'></script>
+<script>
+
+	angular.module('JSONTest', []);
+
+    function Ctrl($scope, $http) {		
+
+		$scope.mainInfo = null;
+		$http.get('deathProbability.json').success(function(data) {
+			$scope.mainInfo = data;
+		});
+	}
+</script>
+    <body ng-controller='Ctrl'>
+		<div ng-repeat="prob in mainInfo.probabilities">
+		{{prob.deathProb}}
+		</div>
+	</body>
+</html>

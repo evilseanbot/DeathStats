@@ -1,0 +1,49 @@
+.column {
+	float: left;
+	width: 50px;
+	height: 400px;
+	border-bottom: 1px solid black;
+}
+
+.finecolumn {
+	float: left;
+	width: 7px;
+	height: 300px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid #888888;
+}
+
+.finebar {
+	width: 7px;
+}	
+
+.bar {
+	width: 40px;
+}
+
+.container {
+	width: 3000px;
+	height: 400px;
+}
+
+.questions {
+	border: 1px solid black;
+	display: block;
+}
+
+.sliderExample {
+	width: 500px;
+	padding: 2em;
+	background-color: #f5f5f5;
+	border: 1px solid #f0f0f0;
+	margin: 2em;
+}
+
+.sliderExample > div {
+	margin: 1em 0;
+}
+
+.demoSquare {
+	height: 20px; 
+	width: 20px; 	
+}

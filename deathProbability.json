@@ -1,0 +1,157 @@
+{
+    "probabilities":
+    [
+	    {
+			"age": 0,
+			"sex": "male",
+			"deathProb": 0.006990
+		},
+	    {
+			"age": 1,
+			"sex": "male",
+			"deathProb": 0.000447
+		},
+	    {
+			"age": 2,
+			"sex": "male",
+			"deathProb": 0.000301
+		},
+	    {
+			"age": 3,
+			"sex": "male",
+			"deathProb": 0.000223
+		},
+	    {
+			"age": 4,
+			"sex": "male",
+			"deathProb": 0.000117
+		},		
+	    {
+			"age": 5,
+			"sex": "male",
+			"deathProb": 0.000161
+		},
+	    {
+			"age": 6,
+			"sex": "male",
+			"deathProb": 0.000150
+		},
+	    {
+			"age": 7,
+			"sex": "male",
+			"deathProb": 0.000139
+		},
+	    {
+			"age": 8,
+			"sex": "male",
+			"deathProb": 0.000123
+		},
+	    {
+			"age": 9,
+			"sex": "male",
+			"deathProb": 0.000105
+		},
+	    {
+			"age": 10,
+			"sex": "male",
+			"deathProb": 0.000091
+		},
+	    {
+			"age": 11,
+			"sex": "male",
+			"deathProb": 0.000096
+		},
+	    {
+			"age": 12,
+			"sex": "male",
+			"deathProb": 0.000135
+		},		
+	    {
+			"age": 13,
+			"sex": "male",
+			"deathProb": 0.000217
+		},
+	    {
+			"age": 14,
+			"sex": "male",
+			"deathProb": 0.000332
+		},
+	    {
+			"age": 15,
+			"sex": "male",
+			"deathProb": 0.000456
+		},
+	    {
+			"age": 16,
+			"sex": "male",
+			"deathProb": 0.000579
+		},
+	    {
+			"age": 17,
+			"sex": "male",
+			"deathProb": 0.000709
+		},
+	    {
+			"age": 18,
+			"sex": "male",
+			"deathProb": 0.000843
+		},
+	    {
+			"age": 19,
+			"sex": "male",
+			"deathProb": 0.000997
+		},
+	    {
+			"age": 20,
+			"sex": "male",
+			"deathProb": 0.001118
+		},
+	    {
+			"age": 21,
+			"sex": "male",
+			"deathProb": 0.001250
+		},
+	    {
+			"age": 22,
+			"sex": "male",
+			"deathProb": 0.001342
+		},		
+	    {
+			"age": 23,
+			"sex": "male",
+			"deathProb": 0.001382
+		},
+	    {
+			"age": 24,
+			"sex": "male",
+			"deathProb": 0.001382
+		},
+	    {
+			"age": 25,
+			"sex": "male",
+			"deathProb": 0.001370
+		},
+	    {
+			"age": 26,
+			"sex": "male",
+			"deathProb": 0.001364
+		},
+	    {
+			"age": 27,
+			"sex": "male",
+			"deathProb": 0.001362
+		},
+	    {
+			"age": 28,
+			"sex": "male",
+			"deathProb": 0.001373
+		},
+	    {
+			"age": 29,
+			"sex": "male",
+			"deathProb": 0.001393
+		}
+		
+	]
+	
+}

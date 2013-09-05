@@ -1,0 +1,24 @@
+TO DO FOR DEATH STATS:
+* Put it on git
+* Add an explanation to it some where.
+* Add questions for gender, race, income, smoking status, bmi?
+* Perform speed optimization on updateComplex
+* Add "Future scenarios", variations of the lifespan that could happen in our lifetime.
+* Ages extending beyond 100? (Possibly switching to actuary table.)
+* Make space for graph bigger
+* Use a javascript graphs library
+* Improve the layout
+* Fix sawtooth patterns on causes of death.
+* Move CSS to its own page.
+* Move Model to its own system.
+* Move JS(?) to its own page.
+
+DONE:
+* Add descriptions of the different colors.
+* Add non-porportional cause of death graphs.
+* Turned 'Causes' into its own variable.
+* Make the causes of death only list causes that will occur after the age of the sample.
+* Change the causes of death to be in the same format as the survival rate.
+* Make the causes of death reflect the liklihood of being alive at that age / dying of that cause.
+* Make a list of estimated causes of death.
+* Put it online for online gawkers.
