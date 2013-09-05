@@ -153,9 +153,7 @@
 							"65-74": 31777,
 							"75-84": 48309, 
 							"85+": 37945}
-
-
-		
+							
 		var ages = ["0-1", "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84", "85+"];
 		
 		var agesMinMax = {"0-1": {"min": 0, "max": 1},
@@ -182,8 +180,6 @@
 				 {"name": "chronic lower respitory diseases", "rate": lowerRespDeathRates, "color": "#0088FF"},
 				 {"name": "all other diseases", "rate": allOtherDeathRates, "color": "#888888"}
 		];
-		
-		
 		
 		$scope.deathCausesByAge = [];
 					
@@ -293,6 +289,8 @@
 					}
 					$scope.deathCausesByAge.push(insertAge);
 				}
+				
+				console.log("Death causes by age: " + $scope.deathCausesByAge);
 				
 				// Figure out total % of dying by cause.
 				$scope.chanceOfDyingByCause = [];
