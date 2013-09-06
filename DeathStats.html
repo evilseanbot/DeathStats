@@ -276,8 +276,9 @@
 						    age = ages[k];
 						}
 					}
-				
-					var insertAge = {"age": i, "causes": []};
+					
+					var insertAge = {"age": i, "causes": [], "notDying": 0};
+					var notDying = 300;
 					for (var j = 0; j < $scope.causes.length; j++) {
 						var insertCause = {
 					        "name": $scope.causes[j].name, 
@@ -285,8 +286,9 @@
 							"color": $scope.causes[j].color
 							};
 						insertAge.causes.push(insertCause);
-						
+						notDying -= insertCause.rate;
 					}
+					insertAge.notDying = notDying;
 					$scope.deathCausesByAge.push(insertAge);
 				}
 								
@@ -376,10 +378,10 @@
 						    <tr>
 							    <td width='800'>
 									<div style='height: 350px'>
-										<div class='finecolumn' ng-repeat="year in years">
-											<div class='finebar' style='height: {{year.dead*3}}px; background-color: #444444'></div>
-											<div class='finebar' style='height: {{year.die*3}}px; background-color: #FF0000'></div>
-											<div class='finebar' style='height: {{year.live*3}}px; background-color: #BBBBBB'></div>		
+										<div class='finecolumn' ng-repeat="year in years" style='width: {{780/years.length}};'>
+											<div class='finebar' style='height: {{year.dead*3}}px; width: {{780/years.length}}; background-color: #444444'></div>
+											<div class='finebar' style='height: {{year.die*3}}px;  width: {{780/years.length}}; background-color: #FF0000'></div>
+											<div class='finebar' style='height: {{year.live*3}}px;  width: {{780/years.length}}; background-color: #BBBBBB'></div>		
 											<span style='font-size: 8pt'>{{ifRound(year.age)}}</span>
 										</div>			
 									</div>
@@ -397,8 +399,9 @@
 					    <table>
 						    <tr>
 							    <td width='800'>
-										<div class='finecolumn' ng-repeat="year in deathCausesByAge">
-											<div class='finebar' alt='{{cause.name}}' style='height: {{cause.rate}}px; background-color: {{cause.color}}' ng-repeat="cause in year.causes"></div>
+										<div class='finecolumn' ng-repeat="year in deathCausesByAge" style='width: {{780/years.length}};'>
+											<div class='finebar' alt='{{cause.name}}' style='height: {{year.notDying}}px; width: {{780/years.length}}; background-color: white'></div>										
+											<div class='finebar' alt='{{cause.name}}' style='height: {{cause.rate}}px; width: {{780/years.length}}; background-color: {{cause.color}}' ng-repeat="cause in year.causes"></div>
 									        <span style='font-size: 8pt'>{{ifRound(year.age)}}</span>
 										</div>	
 									</div>

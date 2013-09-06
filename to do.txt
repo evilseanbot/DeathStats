@@ -7,7 +7,6 @@ TO DO FOR DEATH STATS:
 * Improve the layout
 * Move Model to its own system.
 * Move JS(?) to its own page.
-* Add data for all ages.
 * Make it not pull data from only males.
 * Perform speed optimization on updateComplex (Mostly the causes thing)
 
@@ -25,3 +24,6 @@ DONE:
 * Ages extending beyond 100
 * Fix prediction of death causes.
 * Fix sawtooth patterns on causes of death.
+* Made causes by death raise from the bottom instead of fall from the top.
+* Fixed numbers below the causes of death graph.
+* Added data for all ages of males.
