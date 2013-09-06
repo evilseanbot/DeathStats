@@ -3,14 +3,13 @@ TO DO FOR DEATH STATS:
 * Add questions for gender, race, income, smoking status, bmi?
 * Add "Future scenarios", variations of the lifespan that could happen in our lifetime.
 * Make space for graph bigger
-* Use a javascript graphs library
+* Use a javascript graphs library (d3?)
 * Improve the layout
-* Fix sawtooth patterns on causes of death.
 * Move Model to its own system.
 * Move JS(?) to its own page.
 * Add data for all ages.
 * Make it not pull data from only males.
-* Fix prediction of death causes.
+* Perform speed optimization on updateComplex (Mostly the causes thing)
 
 DONE:
 * Add descriptions of the different colors.
@@ -24,4 +23,5 @@ DONE:
 * Put it on git
 * Move CSS to its own page.
 * Ages extending beyond 100
-* Perform speed optimization on updateComplex
+* Fix prediction of death causes.
+* Fix sawtooth patterns on causes of death.

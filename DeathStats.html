@@ -166,7 +166,7 @@
 						 "55-64": {"min": 55, "max": 64},
 						 "65-74":  {"min": 65, "max": 74},
 						 "75-84": {"min": 75, "max": 84},
-						 "85+": {"min": 85, "max": 100}
+						 "85+": {"min": 85, "max": 120}
 						 }
 		
         $scope.causes = [{"name": "cancer", "rate": cancerDeathRates, "color": "#008800"}, 
@@ -269,7 +269,7 @@
 				
 				// Generates death causes by age:
 				$scope.deathCausesByAge = [];			
-				for (var i = $scope.myAge; i < 100; i++) {
+				for (var i = $scope.myAge; i < maxAge; i++) {
 				
 				    for (var k = 0; k < ages.length; k++) {
 					    if (i >= agesMinMax[ages[k]].min && i <= agesMinMax[ages[k]].max) {
@@ -289,9 +289,7 @@
 					}
 					$scope.deathCausesByAge.push(insertAge);
 				}
-				
-				console.log("Death causes by age: " + $scope.deathCausesByAge);
-				
+								
 				// Figure out total % of dying by cause.
 				$scope.chanceOfDyingByCause = [];
 				
@@ -337,8 +335,8 @@
 		}
 		
 		function getChanceOfDyingByCause($scope, ageGroup, age, chanceToDieOfCause, cause) {
-		    var ageDeathRate = $scope.getLifeTableByAge(age).deathProb;
-			return chanceToDieOfCause * ageDeathRate.deathRate * $scope.findSurvivalRateByAge(age);
+		    var ageDeathRate = $scope.getLifeTableEntryByAge(age).deathProb;
+			return chanceToDieOfCause * ageDeathRate * $scope.findSurvivalRateByAge(age);
 		}
 				
 		$scope.findSurvivalRateByAge = function(age) {
