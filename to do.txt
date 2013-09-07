@@ -1,13 +1,14 @@
 TO DO FOR DEATH STATS:
 * Add an explanation to it some where.
-* Add questions for gender, race, income, smoking status, bmi?
+* Add question race 
+* Add question for income 
+* Add question for smoking status 
+* Add question for BMI
 * Add "Future scenarios", variations of the lifespan that could happen in our lifetime.
 * Make space for graph bigger
 * Use a javascript graphs library (d3?)
 * Improve the layout
 * Move Model to its own system.
-* Move JS(?) to its own page.
-* Make it not pull data from only males.
 * Perform speed optimization on updateComplex (Mostly the causes thing)
 
 DONE:
@@ -27,3 +28,8 @@ DONE:
 * Made causes by death raise from the bottom instead of fall from the top.
 * Fixed numbers below the causes of death graph.
 * Added data for all ages of males.
+* Move JS(?) to its own page.
+* Add data for women.
+* Add question for gender 
+* Make it not pull data from only males.
+* Remove bug when no data is entered.

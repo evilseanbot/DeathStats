@@ -24,7 +24,7 @@
 	    {
 			"age": 4,
 			"sex": "male",
-			"deathProb": 0.000117
+			"deathProb": 0.000177
 		},		
 	    {
 			"age": 5,
@@ -600,8 +600,607 @@
 			"age": 119,
 			"sex": "male",
 			"deathProb": 0.893947
-		}		
-		
+		},		
+	    {
+			"age": 0,
+			"sex": "female",
+			"deathProb": 0.005728
+		},
+	    {
+			"age": 1,
+			"sex": "female",
+			"deathProb": 0.000373
+		},
+	    {
+			"age": 2,
+			"sex": "female",
+			"deathProb": 0.000241
+		},
+	    {
+			"age": 3,
+			"sex": "female",
+			"deathProb": 0.000186
+		},
+	    {
+			"age": 4,
+			"sex": "female",
+			"deathProb": 0.000150
+		},		
+	    {
+			"age": 5,
+			"sex": "female",
+			"deathProb": 0.000133
+		},
+	    {
+			"age": 6,
+			"sex": "female",
+			"deathProb": 0.000121
+		},
+	    {
+			"age": 7,
+			"sex": "female",
+			"deathProb": 0.000112
+		},
+	    {
+			"age": 8,
+			"sex": "female",
+			"deathProb": 0.000104
+		},
+	    {
+			"age": 9,
+			"sex": "female",
+			"deathProb": 0.000098
+		},
+	    {
+			"age": 10,
+			"sex": "female",
+			"deathProb": 0.000094
+		},
+	    {
+			"age": 11,
+			"sex": "female",
+			"deathProb": 0.000098
+		},
+	    {
+			"age": 12,
+			"sex": "female",
+			"deathProb": 0.000114
+		},		
+	    {
+			"age": 13,
+			"sex": "female",
+			"deathProb": 0.000143
+		},
+	    {
+			"age": 14,
+			"sex": "female",
+			"deathProb": 0.000183
+		},
+	    {
+			"age": 15,
+			"sex": "female",
+			"deathProb": 0.000229
+		},
+	    {
+			"age": 16,
+			"sex": "female",
+			"deathProb": 0.000274
+		},
+	    {
+			"age": 17,
+			"sex": "female",
+			"deathProb": 0.000314
+		},
+	    {
+			"age": 18,
+			"sex": "female",
+			"deathProb": 0.000347
+		},
+	    {
+			"age": 19,
+			"sex": "female",
+			"deathProb": 0.000374
+		},
+	    {
+			"age": 20,
+			"sex": "female",
+			"deathProb": 0.000402
+		},
+	    {
+			"age": 21,
+			"sex": "female",
+			"deathProb": 0.000431
+		},
+	    {
+			"age": 22,
+			"sex": "female",
+			"deathProb": 0.000458
+		},		
+	    {
+			"age": 23,
+			"sex": "female",
+			"deathProb": 0.000482
+		},
+	    {
+			"age": 24,
+			"sex": "female",
+			"deathProb": 0.000504
+		},
+	    {
+			"age": 25,
+			"sex": "female",
+			"deathProb": 0.000527
+		},
+	    {
+			"age": 26,
+			"sex": "female",
+			"deathProb": 0.000551
+		},
+	    {
+			"age": 27,
+			"sex": "female",
+			"deathProb": 0.000575
+		},
+	    {
+			"age": 28,
+			"sex": "female",
+			"deathProb": 0.000602
+		},
+	    {
+			"age": 29,
+			"sex": "female",
+			"deathProb": 0.000630
+		},
+	    {
+			"age": 30,
+			"sex": "female",
+			"deathProb": 0.000662
+		},
+	    {
+			"age": 31,
+			"sex": "female",
+			"deathProb": 0.000699
+		},
+	    {
+			"age": 32,
+			"sex": "female",
+			"deathProb": 0.000739
+		},
+	    {
+			"age": 33,
+			"sex": "female",
+			"deathProb": 0.000780
+		},
+	    {
+			"age": 34,
+			"sex": "female",
+			"deathProb": 0.000827
+		},		
+	    {
+			"age": 35,
+			"sex": "female",
+			"deathProb": 0.000879
+		},
+	    {
+			"age": 36,
+			"sex": "female",
+			"deathProb": 0.000943
+		},
+	    {
+			"age": 37,
+			"sex": "female",
+			"deathProb": 0.001020
+		},
+	    {
+			"age": 38,
+			"sex": "female",
+			"deathProb": 0.001114
+		},
+	    {
+			"age": 39,
+			"sex": "female",
+			"deathProb": 0.001224
+		},
+	    {
+			"age": 40,
+			"sex": "female",
+			"deathProb": 0.001345
+		},
+	    {
+			"age": 41,
+			"sex": "female",
+			"deathProb": 0.001477
+		},
+	    {
+			"age": 42,
+			"sex": "female",
+			"deathProb": 0.001624
+		},		
+	    {
+			"age": 43,
+			"sex": "female",
+			"deathProb": 0.001789
+		},
+	    {
+			"age": 44,
+			"sex": "female",
+			"deathProb": 0.001968
+		},
+	    {
+			"age": 45,
+			"sex": "female",
+			"deathProb": 0.002161
+		},
+	    {
+			"age": 46,
+			"sex": "female",
+			"deathProb": 0.002364
+		},
+	    {
+			"age": 47,
+			"sex": "female",
+			"deathProb": 0.002578
+		},
+	    {
+			"age": 48,
+			"sex": "female",
+			"deathProb": 0.002800
+		},
+	    {
+			"age": 49,
+			"sex": "female",
+			"deathProb": 0.003032
+		},
+	    {
+			"age": 50,
+			"sex": "female",
+			"deathProb": 0.003289
+		},
+	    {
+			"age": 51,
+			"sex": "female",
+			"deathProb": 0.003559
+		},
+	    {
+			"age": 52,
+			"sex": "female",
+			"deathProb": 0.003819
+		},		
+	    {
+			"age": 53,
+			"sex": "female",
+			"deathProb": 0.004059
+		},
+	    {
+			"age": 54,
+			"sex": "female",
+			"deathProb": 0.004296
+		},
+	    {
+			"age": 55,
+			"sex": "female",
+			"deathProb": 0.004556
+		},
+	    {
+			"age": 56,
+			"sex": "female",
+			"deathProb": 0.004862
+		},
+	    {
+			"age": 57,
+			"sex": "female",
+			"deathProb": 0.005222
+		},
+	    {
+			"age": 58,
+			"sex": "female",
+			"deathProb": 0.005646
+		},
+	    {
+			"age": 59,
+			"sex": "female",
+			"deathProb": 0.006136
+		},
+	    {
+			"age": 60,
+			"sex": "female",
+			"deathProb": 0.006696
+		},
+	    {
+			"age": 61,
+			"sex": "female",
+			"deathProb": 0.007315
+		},
+	    {
+			"age": 62,
+			"sex": "female",
+			"deathProb": 0.007976
+		},		
+	    {
+			"age": 63,
+			"sex": "female",
+			"deathProb": 0.008678
+		},
+	    {
+			"age": 64,
+			"sex": "female",
+			"deathProb": 0.009435
+		},
+	    {
+			"age": 65,
+			"sex": "female",
+			"deathProb": 0.010298
+		},
+	    {
+			"age": 66,
+			"sex": "female",
+			"deathProb": 0.011281
+		},
+	    {
+			"age": 67,
+			"sex": "female",
+			"deathProb": 0.012370
+		},
+	    {
+			"age": 68,
+			"sex": "female",
+			"deathProb": 0.013572
+		},
+	    {
+			"age": 69,
+			"sex": "female",
+			"deathProb": 0.014908
+		},
+	    {
+			"age": 70,
+			"sex": "female",
+			"deathProb": 0.016440
+		},
+	    {
+			"age": 71,
+			"sex": "female",
+			"deathProb": 0.018162
+		},
+	    {
+			"age": 72,
+			"sex": "female",
+			"deathProb": 0.020019
+		},		
+	    {
+			"age": 73,
+			"sex": "female",
+			"deathProb": 0.022003
+		},
+	    {
+			"age": 74,
+			"sex": "female",
+			"deathProb": 0.024173
+		},
+	    {
+			"age": 75,
+			"sex": "female",
+			"deathProb": 0.026706
+		},
+	    {
+			"age": 76,
+			"sex": "female",
+			"deathProb": 0.029603
+		},
+	    {
+			"age": 77,
+			"sex": "female",
+			"deathProb": 0.032718
+		},
+	    {
+			"age": 78,
+			"sex": "female",
+			"deathProb": 0.036034
+		},
+	    {
+			"age": 79,
+			"sex": "female",
+			"deathProb": 0.039683
+		},
+	    {
+			"age": 80,
+			"sex": "female",
+			"deathProb": 0.043899
+		},
+	    {
+			"age": 81,
+			"sex": "female",
+			"deathProb": 0.048807
+		},
+	    {
+			"age": 82,
+			"sex": "female",
+			"deathProb": 0.054374
+		},		
+	    {
+			"age": 83,
+			"sex": "female",
+			"deathProb": 0.060661
+		},
+	    {
+			"age": 84,
+			"sex": "female",
+			"deathProb": 0.067751
+		},
+	    {
+			"age": 85,
+			"sex": "female",
+			"deathProb": 0.075729
+		},
+	    {
+			"age": 86,
+			"sex": "female",
+			"deathProb": 0.084673
+		},
+	    {
+			"age": 87,
+			"sex": "female",
+			"deathProb": 0.094645
+		},
+	    {
+			"age": 88,
+			"sex": "female",
+			"deathProb": 0.105694
+		},
+	    {
+			"age": 89,
+			"sex": "female",
+			"deathProb": 0.117853
+		},
+	    {
+			"age": 90,
+			"sex": "female",
+			"deathProb": 0.131146
+		},
+	    {
+			"age": 91,
+			"sex": "female",
+			"deathProb": 0.145585
+		},
+	    {
+			"age": 92,
+			"sex": "female",
+			"deathProb": 0.161175
+		},		
+	    {
+			"age": 93,
+			"sex": "female",
+			"deathProb": 0.177910
+		},
+	    {
+			"age": 94,
+			"sex": "female",
+			"deathProb": 0.195774
+		},
+	    {
+			"age": 95,
+			"sex": "female",
+			"deathProb": 0.213849
+		},
+	    {
+			"age": 96,
+			"sex": "female",
+			"deathProb": 0.231865
+		},
+	    {
+			"age": 97,
+			"sex": "female",
+			"deathProb": 0.249525
+		},
+	    {
+			"age": 98,
+			"sex": "female",
+			"deathProb": 0.266514
+		},
+	    {
+			"age": 99,
+			"sex": "female",
+			"deathProb": 0.282504
+		},
+	    {
+			"age": 100,
+			"sex": "female",
+			"deathProb": 0.299455
+		},
+	    {
+			"age": 101,
+			"sex": "female",
+			"deathProb": 0.317422
+		},
+	    {
+			"age": 102,
+			"sex": "female",
+			"deathProb": 0.336467
+		},		
+	    {
+			"age": 103,
+			"sex": "female",
+			"deathProb": 0.356655
+		},
+	    {
+			"age": 104,
+			"sex": "female",
+			"deathProb": 0.378055
+		},
+	    {
+			"age": 105,
+			"sex": "female",
+			"deathProb": 0.400738
+		},
+	    {
+			"age": 106,
+			"sex": "female",
+			"deathProb": 0.424782
+		},
+	    {
+			"age": 107,
+			"sex": "female",
+			"deathProb": 0.450269
+		},
+	    {
+			"age": 108,
+			"sex": "female",
+			"deathProb": 0.477285
+		},
+	    {
+			"age": 109,
+			"sex": "female",
+			"deathProb": 0.505922
+		},
+	    {
+			"age": 110,
+			"sex": "female",
+			"deathProb": 0.536278
+		},
+	    {
+			"age": 111,
+			"sex": "female",
+			"deathProb": 0.568454
+		},
+	    {
+			"age": 112,
+			"sex": "female",
+			"deathProb": 0.602561
+		},		
+	    {
+			"age": 113,
+			"sex": "female",
+			"deathProb": 0.638715
+		},
+	    {
+			"age": 114,
+			"sex": "female",
+			"deathProb": 0.677038
+		},
+	    {
+			"age": 115,
+			"sex": "female",
+			"deathProb": 0.717660
+		},
+	    {
+			"age": 116,
+			"sex": "female",
+			"deathProb": 0.760720
+		},
+	    {
+			"age": 117,
+			"sex": "female",
+			"deathProb": 0.806363
+		},
+	    {
+			"age": 118,
+			"sex": "female",
+			"deathProb": 0.851378
+		},
+	    {
+			"age": 119,
+			"sex": "female",
+			"deathProb": 0.893947
+		}				
 	]
 	
 }
