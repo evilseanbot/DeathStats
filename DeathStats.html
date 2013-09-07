@@ -7,80 +7,61 @@
 <script src="angular-slider.js"></script>
 <script src="DeathStats.js"></script>
 <body ng-controller="Ctrl">
-    <table>
-	    <tr>
-		    <td style='width: 1000px'>
-				<tabset>
-					<tab heading="Survival chance by age">
-					    <table>
-						    <tr>
-							    <td width='800'>
-									<div style='height: 350px'>
-										<div class='finecolumn' ng-repeat="year in years" style='width: {{780/years.length}};'>
-											<div class='finebar' style='height: {{year.dead*3}}px; width: {{780/years.length}}; background-color: #444444'></div>
-											<div class='finebar' style='height: {{year.die*3}}px;  width: {{780/years.length}}; background-color: #FF0000'></div>
-											<div class='finebar' style='height: {{year.live*3}}px;  width: {{780/years.length}}; background-color: #BBBBBB'></div>		
-											<span style='font-size: 8pt'>{{ifRound(year.age)}}</span>
-										</div>			
-									</div>
-								</td>
-								<td>
-								    <span class='demoSquare' style='background-color: #444444'>___</span> Already dead.<br><br>
-								    <span class='demoSquare' style='background-color: #FF0000'>___</span> Dying this year.<br><br>
-								    <span class='demoSquare' style='background-color: #BBBBBB'>___</span> Surviving this year.<br><br>
-									
-								</td>
-							</tr>
-						</table>
-					</tab>
-					<tab heading="Causes of death by age">
-					    <table>
-						    <tr>
-							    <td width='800'>
-										<div class='finecolumn' ng-repeat="year in deathCausesByAge" style='width: {{780/years.length}};'>
-											<div class='finebar' 
-											style='height: {{year.notDying * (300.0/highestDeathCauseBar)}}px; 
-											    width: {{780/years.length}}px; 
-												background-color: white'></div>										
-											<div class='finebar'
-											style='height: {{cause.rate * (300.0/highestDeathCauseBar)}}px; 
-											    width: {{780/years.length}}px; 
-												background-color: {{cause.color}}' 
-											ng-repeat="cause in year.causes"></div>
-									        <span style='font-size: 8pt'>{{ifRound(year.age)}}</span>
-										</div>	
-									</div>
-								</td>
-								<td>
-								    <p ng-repeat="cause in causes">
-								        <span class='demoSquare' style='background-color: {{cause.color}}'>___</span> {{cause.name}}
-                                    </p>								    
-								</td>
-							</tr>
-						</table>
-					</tab>					
-				</tabset>
-			</td>
-			<td>
-				<p>Age: <input type='text' ng-model='myAge' ng-change='updateComplex()'></p>
-				<p>
-					Sex: <select ng-model='mySex' ng-change='updateComplex()'>
-						<option value='unknown'>Unknown</option>
-						<option value='male'>Male</option>
-						<option value='female'>Female</option>
-					</select>
-				</p>
-			</td>
-		</tr>
-		<tr> 
-		    <td>
-					<slider floor="5" ceiling="95" step="5" precision="2" ng-model='certainty' ng-click='makeGraph()'></slider>				
-				<h1>Certainty: {{certainty}}%</h1>
-				<p>Estimated age of death: {{getLikelyDeathRange()}}
-				<p>Estimated cause of death: {{getLikelyDeathCauses()}}
-			</td>
-		</tr>
-	</table>
+<tabset>
+	<tab heading="Survival chance by age">
+		<div width='1200'>
+			<div style='height: 425px'>
+				<div class='finecolumn' ng-repeat="year in years" style='width: {{1180/years.length}};'>
+					<div class='finebar' style='height: {{year.dead*4}}px; width: {{1180/years.length}}; background-color: #444444'></div>
+					<div class='finebar' style='height: {{year.die*4}}px;  width: {{1180/years.length}}; background-color: #FF0000'></div>
+					<div class='finebar' style='height: {{year.live*4}}px;  width: {{1180/years.length}}; background-color: #BBBBBB'></div>		
+					<span style='font-size: 8pt'>{{ifRound(year.age)}}</span>
+				</div>			
+			</div>
+		</div>
+		<span class='demoSquare' style='background-color: #444444'>___</span> Already dead.
+		<span class='demoSquare' style='background-color: #FF0000'>___</span> Dying this year.
+		<span class='demoSquare' style='background-color: #BBBBBB'>___</span> Surviving this year.
+	</tab>
+	<tab heading="Causes of death by age">
+		<div width='1200'>
+		    <div style='height: 425px'>
+				<div class='finecolumn' ng-repeat="year in deathCausesByAge" style='width: {{1180/years.length}};'>
+					<div class='finebar' 
+					style='height: {{year.notDying * (400.0/highestDeathCauseBar)}}px; 
+						width: {{1180/years.length}}px; 
+						background-color: white'></div>										
+					<div class='finebar'
+					style='height: {{cause.rate * (400.0/highestDeathCauseBar)}}px; 
+						width: {{1180/years.length}}px; 
+						background-color: {{cause.color}}' 
+					ng-repeat="cause in year.causes"></div>
+					<span style='font-size: 8pt'>{{ifRound(year.age)}}</span>
+				</div>
+			</div>
+		</div>
+    		<span ng-repeat='cause in causes'><span class='demoSquare' style='background-color: {{cause.color}}'>___</span> {{cause.name}} </span>
+	</tab>					
+</tabset>
+
+    <div style='width: 1200px'>
+	    <div style='float: left; margin: 10px; width: 580px'>
+			<p>Age: <input type='text' ng-model='myAge' ng-change='updateComplex()'></p>
+			<p>
+				Sex: <select ng-model='mySex' ng-change='updateComplex()'>
+					<option value='unknown'>Unknown</option>
+					<option value='male'>Male</option>
+					<option value='female'>Female</option>
+				</select>
+			</p>						
+		</div>
+		<div style='float: right; width: 600px'>
+				<slider floor="1" ceiling="99" step="1" precision="2" ng-model='certainty' ng-click='makeGraph()' style='width: 560px'"></slider>				
+				Certainty: {{certainty}}%<br>
+				Estimated age of death: {{getLikelyDeathRange()}}<br>
+				Estimated cause of death: {{getLikelyDeathCauses()}}		
+		</div>
+	</div>
 </body>
 
 </html>

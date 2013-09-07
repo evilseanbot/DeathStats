@@ -1,11 +1,9 @@
 TO DO FOR DEATH STATS:
-* Add an explanation to it some where.
 * Add question race 
 * Add question for income 
 * Add question for smoking status 
 * Add question for BMI
 * Add "Future scenarios", variations of the lifespan that could happen in our lifetime.
-* Make space for graph bigger
 * Use a javascript graphs library (d3?)
 * Improve the layout
 * Move Model to its own system.
@@ -13,7 +11,7 @@ TO DO FOR DEATH STATS:
 
 DONE:
 * Add descriptions of the different colors.
-* Add non-porportional cause of death graphs.
+* Add non-proportional cause of death graphs.
 * Turned 'Causes' into its own variable.
 * Make the causes of death only list causes that will occur after the age of the sample.
 * Change the causes of death to be in the same format as the survival rate.
@@ -33,3 +31,4 @@ DONE:
 * Add question for gender 
 * Make it not pull data from only males.
 * Remove bug when no data is entered.
+* Make space for graph bigger
