@@ -9,6 +9,8 @@ TO DO FOR DEATH STATS:
 * Use a javascript graphs library (d3?)
 * Improve the layout
 * Perform speed optimization on updateComplex (Mostly the causes thing)
+* Get people's opinion on the code architecture.
+* Get people's opinion on the design.
 
 DONE:
 * Add descriptions of the different colors.
