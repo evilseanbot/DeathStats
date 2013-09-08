@@ -1,12 +1,13 @@
 TO DO FOR DEATH STATS:
-* Add question race 
-* Add question for income 
-* Add question for smoking status 
-* Add question for BMI
+* Add question race (Need to find race death statistics)
+* Add question for income (Need to find income death statistics)
+* Add question for smoking status (Need to find SS death statistics)
+* Add question for BMI (Need to find BMI death statistics)
 * Add "Future scenarios", variations of the lifespan that could happen in our lifetime.
+    - Self-driving cards reduce auto-accidents.
+	- Life expectancy increases in line with SS 
 * Use a javascript graphs library (d3?)
 * Improve the layout
-* Move Model to its own system.
 * Perform speed optimization on updateComplex (Mostly the causes thing)
 
 DONE:
@@ -32,3 +33,4 @@ DONE:
 * Make it not pull data from only males.
 * Remove bug when no data is entered.
 * Make space for graph bigger
+* Move Model to its own system. (.json files)

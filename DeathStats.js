@@ -12,138 +12,7 @@ function Ctrl($scope, $http) {
 	
 	$scope.certainty = 50;
 			
-	totalDeathRates = {"0-1": 24586, 
-						"1-4": 4316,
-						"5-14": 5279,
-						"15-24": 29551, 
-						"25-34": 42259,
-						"35-44": 70033,
-						"45-54": 183207, 
-						"55-64": 310802,
-						"65-74": 407151,
-						"75-84": 625651,
-						"85+":   765474,							
-						}
-						
-	cancerDeathRates = {"0-1": 62,
-						"1-4": 346,
-						"5-14": 916,
-						"15-24": 1604,
-						"25-34": 3619,
-						"35-44": 11809,
-						"45-54": 50211,
-						"55-64": 109501,
-						"65-74": 144635,
-						"75-84": 157025,
-						"85+": 95010}
-						
-	heartDeathRates = {"0-1": 468,
-						"1-4": 213,
-						"5-14": 282,
-						"15-24": 1286,
-						"25-34": 4012,
-						"35-44": 13313,
-						"45-54": 45149,
-						"55-64": 83886,
-						"65-74": 114483,
-						"75-84": 204180,
-						"85+": 311910}
-					
-	assaultDeathRates = {"0-1": 311,
-						"1-4": 385,
-						"5-14": 261,
-						"15-24": 4678,
-						"25-34": 4258,
-						"35-44": 2473,
-						"45-54": 1997,
-						"55-64": 1065,
-						"65-74": 452,
-						"75-84": 250,
-						"85+": 112}
-
-	suicideDeathRates = {"0-1": 0,
-						"1-4": 0,
-						"5-14": 274,
-						"15-24": 4600,
-						"25-34": 5735,
-						"35-44": 6571,
-						"45-54": 8799,
-						"55-64": 6384,
-						"65-74": 2974,
-						"75-84": 2052,
-						"85+": 968}
-
-	accidentDeathRates = {"0-1": 1110,
-						"1-4": 1394,
-						"5-14": 1643,
-						"15-24": 12341,
-						"25-34": 14573,
-						"35-44": 14792,
-						"45-54": 19667,
-						"55-64": 14023,
-						"65-74": 9407,
-						"75-84": 13853, 
-						"85+": 18040}
-
-	allOtherDeathRates = {"0-1": 753,
-						"1-4": 482,
-						"5-14": 779,
-						"15-24": 1872,
-						"25-34": 3297,
-						"35-44": 6579,
-						"45-54": 16727,
-						"55-64": 26186,
-						"65-74": 32793,
-						"75-84": 65182, 
-						"85+": 115192}
-
-	perinatalDeathRates = {"0-1": 12008,
-						"1-4": 52,
-						"5-14": 25,
-						"15-24": 13,
-						"25-34": 9,
-						"35-44": 11,
-						"45-54": 4,
-						"55-64": 2,
-						"65-74": 2,
-						"75-84": 1, 
-						"85+": 0}
-
-	congenitalDeathRates = {"0-1": 5107,
-						"1-4": 507,
-						"5-14": 298,
-						"15-24": 412,
-						"25-34": 397,
-						"35-44": 449,
-						"45-54": 680,
-						"55-64": 774,
-						"65-74": 396,
-						"75-84": 351, 
-						"85+": 302}
-
-	nephritisDeathRates = {"0-1": 105,
-						"1-4": 13,
-						"5-14": 22,
-						"15-24": 68,
-						"25-34": 243,
-						"35-44": 726,
-						"45-54": 2222,
-						"55-64": 5082,
-						"65-74": 8541,
-						"75-84": 15118, 
-						"85+": 18335}
-
-	lowerRespDeathRates = {"0-1": 37,
-						"1-4": 51,
-						"5-14": 133,
-						"15-24": 149,
-						"25-34": 272,
-						"35-44": 709,
-						"45-54": 4452,
-						"55-64": 14242,
-						"65-74": 31777,
-						"75-84": 48309, 
-						"85+": 37945}
+	console.log("Got this far");	
 						
 	var ages = ["0-1", "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84", "85+"];
 	
@@ -158,20 +27,8 @@ function Ctrl($scope, $http) {
 					 "65-74":  {"min": 65, "max": 74},
 					 "75-84": {"min": 75, "max": 84},
 					 "85+": {"min": 85, "max": 120}
-					 }
-	
-	$scope.causes = [{"name": "cancer", "rate": cancerDeathRates, "color": "#008800"}, 
-			 {"name": "heart disease", "rate": heartDeathRates, "color": "#880088"}, 
-			 {"name": "assault", "rate": assaultDeathRates, "color": "#880000"}, 
-			 {"name": "suicide", "rate": suicideDeathRates, "color": "#88FF00"},
-			 {"name": "accident", "rate": accidentDeathRates, "color": "#FF8800"},
-			 {"name": "perinatal conditions", "rate": perinatalDeathRates, "color": "#FF8888"},
-			 {"name": "congenital malformations", "rate": congenitalDeathRates, "color": "#668866"},
-			 {"name": "nephritis etc", "rate": nephritisDeathRates, "color": "#004488"},
-			 {"name": "chronic lower respitory diseases", "rate": lowerRespDeathRates, "color": "#0088FF"},
-			 {"name": "all other diseases", "rate": allOtherDeathRates, "color": "#888888"}
-	];
-	
+					 };
+		
 	$scope.deathCausesByAge = [];
 				
 	$scope.getLikelyDeathRange = function() {
@@ -258,6 +115,8 @@ function Ctrl($scope, $http) {
 				console.log("My age is 0");
 			}
 			
+			console.log("Got this far");
+			
 			var myDeathProb = $scope.getDeathProb($scope.myAge, $scope.mySex);
 
 			$scope.years = [{"age": $scope.myAge, "dead": 0, "die": (myDeathProb*100.0), "live": 100-(myDeathProb*100.0)}];
@@ -300,7 +159,7 @@ function Ctrl($scope, $http) {
 				for (var j = 0; j < $scope.causes.length; j++) {
 					var insertCause = {
 						"name": $scope.causes[j].name, 
-						"rate": getChanceOfDyingByCause($scope, age, i, ($scope.causes[j].rate[age]/totalDeathRates[age])*100, $scope.causes[j]), 
+						"rate": getChanceOfDyingByCause($scope, age, i, ($scope.causes[j].rate[age]/$scope.causeTable["total"][age])*100, $scope.causes[j]), 
 						"color": $scope.causes[j].color
 						};
 					insertAge.causes.push(insertCause);
@@ -385,12 +244,31 @@ function Ctrl($scope, $http) {
 	}
 	
 	$scope.lifeTable = null;
+	$scope.causeTable = null;
 	
 	$http.get('deathProbability.json').success(function(data) {
+	
 		$scope.lifeTable = data.probabilities;
-		console.log("Got it!");
-		console.log(data);
-		$scope.updateComplex();
+	    $http.get('causeRates.json').success(function(data) {
+		    console.log("Got the data");
+		
+		    $scope.causeTable = data;
+
+            $scope.causes = [{"name": "cancer", "rate": $scope.causeTable["cancer"] , "color": "#008800"}, 
+			    {"name": "heart disease", "rate": $scope.causeTable["heart disease"], "color": "#880088"}, 
+			    {"name": "assault", "rate": $scope.causeTable["assault"], "color": "#880000"}, 
+			    {"name": "suicide", "rate": $scope.causeTable["suicide"], "color": "#88FF00"},
+			    {"name": "accident", "rate": $scope.causeTable["accident"], "color": "#FF8800"},
+			    {"name": "perinatal conditions", "rate": $scope.causeTable["perinatal conditions"], "color": "#FF8888"},
+			    {"name": "congenital malformations", "rate": $scope.causeTable["congenital malformations"], "color": "#668866"},
+			    {"name": "nephritis etc", "rate": $scope.causeTable["nephritis etc"], "color": "#004488"},
+			    {"name": "chronic lower respitory diseases", "rate": $scope.causeTable["chronic lower respitory diseases"], "color": "#0088FF"},
+			    {"name": "all other diseases", "rate": $scope.causeTable["all other diseases"], "color": "#888888"}
+	        ];
+			
+			
+			$scope.updateComplex();
+		});
 	});
 	
 }
